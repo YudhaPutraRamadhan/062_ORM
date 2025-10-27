@@ -1,7 +1,7 @@
 module.exports = (sequelize, DataTypes) => {
     const Komik = sequelize.define('Komik', {
         id: {
-            type: DataTypes.INTERGER,
+            type: DataTypes.INTEGER,
             autoincrement: true,
             primaryKey: true
         },
